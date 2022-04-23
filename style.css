@@ -20,11 +20,11 @@ body {
 
 h1 {
     font-size: 72px;
-    text-align: center;
 }
 
 h1, h2, h3 {
     font-family: 'Homemade Apple', cursive;
+    text-align: center;
 }
 
 header {
@@ -109,15 +109,6 @@ section img {
 
 article {
     margin: 20px 0;
-}
-
-article > * {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-h1 ~ p {
     text-align: center;
 }
 
