@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 #color-palette {
     color: #88CC88;
     color: #55AA55;
@@ -12,11 +15,16 @@
 }
 
 body {
-    font-family:'Lucida Sans',
-                'Lucida Sans Regular',
-                'Lucida Grande',
-                'Lucida Sans Unicode',
-                Geneva, Verdana, sans-serif;
+    font-family: 'Handlee', cursive;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Homemade Apple', cursive;
 }
 
 header {
@@ -58,6 +66,7 @@ nav > ul > li > a {
     padding: 10px 0;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
 nav > ul > li > a:hover , header button:hover {
