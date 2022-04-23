@@ -83,6 +83,12 @@ h1 ~ img {
     width: auto;
 }
 
+p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+    line-height: 2em;
+}
+
 img ~ section ~ section {
     display: inline-block;
     padding: 0 auto;
