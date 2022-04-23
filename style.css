@@ -134,3 +134,29 @@ div.new {
     font-size: 150%;
     color: red;
 }
+
+table {
+    border: 1px solid #004400;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #55AA55;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #88CC88;
+}
+
+tbody > tr > td:first-child {
+    font-weight: bold;
+}
+
+tfoot td {
+    font-size: 85%;
+    font-style: italic;
+}
