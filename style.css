@@ -36,7 +36,7 @@ header {
     padding: 10px;
 }
 
-#theme-toggle {
+#theme-toggle, #color-mode-toggle {
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -69,7 +69,8 @@ nav > ul > li > a {
     text-transform: uppercase;
 }
 
-nav > ul > li > a:hover , #theme-toggle:hover {
+nav > ul > li > a:hover,
+#theme-toggle:hover, #color-mode-toggle:hover {
     background-color: #55AA55;
     border: none;
     cursor: pointer;
