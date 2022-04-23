@@ -76,6 +76,10 @@ nav > ul > li > a:hover,
     cursor: pointer;
 }
 
+main {
+    margin: 0 12.5%;
+}
+
 h1 ~ img {
     display: block;
     margin: 20px auto;
@@ -83,7 +87,7 @@ h1 ~ img {
     width: auto;
 }
 
-p {
+img ~ section > p {
     text-indent: 2em;
     margin-bottom: 1em;
     line-height: 2em;
@@ -100,4 +104,14 @@ img ~ section ~ section img {
     height: 400px;
     object-fit: cover;
     float: left;
+}
+
+article > * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 ~ p {
+    text-align: center;
 }
