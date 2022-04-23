@@ -106,6 +106,10 @@ img ~ section ~ section img {
     float: left;
 }
 
+article {
+    margin: 20px 0;
+}
+
 article > * {
     display: block;
     margin: 0 auto;
@@ -114,4 +118,27 @@ article > * {
 
 h1 ~ p {
     text-align: center;
+}
+
+iframe {
+    border: none;
+    width: 450px;
+    height: 450px;
+}
+
+article > div > span {
+    font-weight: bold;
+}
+
+article > div > address {
+    font-style: normal;
+}
+
+article > div > address::before {
+    content: "📞 ";
+}
+
+div.new {
+    font-size: 150%;
+    color: red;
 }
