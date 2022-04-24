@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 #color-palette {
+    color: blanchedalmond;
     color: #88CC88;
     color: #55AA55;
     color: #2D882D;
@@ -16,6 +17,7 @@
 
 body {
     font-family: 'Handlee', cursive;
+    background-color: blanchedalmond;
 }
 
 h1 {
