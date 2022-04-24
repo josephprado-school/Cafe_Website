@@ -27,6 +27,14 @@ h1, h2, h3 {
     text-align: center;
 }
 
+a:hover {
+    color: #2D882D;
+}
+
+a:visited {
+    color: #88CC88;
+}
+
 header {
     background-color: #2D882D;
     position: sticky;
@@ -74,6 +82,7 @@ nav > ul > li > a:hover,
     background-color: #55AA55;
     border: none;
     cursor: pointer;
+    color: white;
 }
 
 main {
