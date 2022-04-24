@@ -98,6 +98,7 @@ img ~ section > p {
 
 section {
     max-width: 1200px;
+    min-width: 605px;
 }
 
 section img {
@@ -138,6 +139,7 @@ div.new {
 table {
     border: 1px solid #004400;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 td {
