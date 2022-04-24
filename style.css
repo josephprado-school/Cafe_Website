@@ -102,7 +102,7 @@ nav > ul > li > a:hover,
     background-color: #55AA55;
     border: none;
     cursor: pointer;
-    color: white;
+    color: white !important;
 }
 
 body.dark-mode nav > ul > li > a:hover,
