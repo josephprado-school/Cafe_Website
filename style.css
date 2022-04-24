@@ -99,6 +99,7 @@ img ~ section > p {
 section {
     max-width: 1200px;
     min-width: 605px;
+    margin: 20px auto;
 }
 
 section img {
