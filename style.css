@@ -160,3 +160,42 @@ tfoot td {
     font-size: 85%;
     font-style: italic;
 }
+
+dt, section > h3 ~ :not(p) {
+    font-weight: bold;
+    margin: 25px 0 2px;
+}
+
+/*
+    last line on menu is div, but not a menu item name.
+    It should not be bold. Don't know how else to exclude
+    that from above selector.
+*/
+section > h3 ~ div ~ p ~ div ~ p ~ div ~ p ~ div ~ p ~ div ~ div ~ div {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.gf::before {
+    content: "gf ";
+    color: #2D882D;
+    font-size: 75%;
+}
+
+.vg::before {
+    content: "vg ";
+    color: #2D882D;
+    font-size: 75%;
+}
+
+.gf.vg::before {
+    content: "gf vg ";
+    color: #2D882D;
+    font-size: 75%;
+}
+
+section > h2 ~ section {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
