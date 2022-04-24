@@ -28,11 +28,11 @@ h1, h2, h3 {
 }
 
 a:hover {
-    color: #2D882D;
+    color: red;
 }
 
 a:visited {
-    color: #88CC88;
+    color: maroon;
 }
 
 header {
@@ -82,6 +82,10 @@ nav > ul > li > a:hover,
     background-color: #55AA55;
     border: none;
     cursor: pointer;
+    color: white;
+}
+
+nav > ul > li > a:visited {
     color: white;
 }
 
