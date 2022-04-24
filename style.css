@@ -27,6 +27,7 @@ h1 {
 h1, h2, h3 {
     font-family: 'Homemade Apple', cursive;
     text-align: center;
+    color: #2D882D;
 }
 
 a:hover {
