@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Handlee', cursive;
+    background-color: #bfe7bf;
 }
 
 h1, h2, h3 {
@@ -19,7 +20,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2D882D;
+    background-color: #567956;
 }
 
 nav {
@@ -68,7 +69,7 @@ nav > ul > li > a {
 }
 
 header a:hover, header #theme-toggle:hover {
-    background-color: #55AA55;
+    background-color: #658f65;
 }
 
 main {
@@ -173,7 +174,7 @@ table {
 }
 
 tbody > tr:nth-child(odd) {
-    background-color: #b3d6b3;
+    background-color: #bfe7bf;
 }
 
 thead > tr, tbody > tr > td:first-child {
