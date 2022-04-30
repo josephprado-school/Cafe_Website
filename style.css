@@ -96,8 +96,8 @@ img[src="images/homepage banner.jpeg"] {
     height: 400px;
 }
 
-p {
-    text-indent: .5in;
+h1 + img + section > p {
+    text-indent: 2em;
 }
 
 /* DIRECTIONS ================================================== */
