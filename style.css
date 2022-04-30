@@ -15,6 +15,10 @@ h1, h2, h3 {
     color: #202e20;
 }
 
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+    color: #759775;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -22,6 +26,15 @@ header {
     top: 0;
     left: 0;
     background-color: #567956;
+}
+
+body.dark-mode > header {
+    background-color: #242424;
+}
+
+body.dark-mode {
+    background-color: #444644;
+    color: #929e92;
 }
 
 nav {
@@ -71,6 +84,11 @@ nav > ul > li > a {
 
 header a:hover, header #theme-toggle:hover {
     background-color: #658f65;
+    color: white !important;
+}
+
+body.dark-mode header a:hover, body.dark-mode  header #theme-toggle:hover {
+    background-color: #313131;
     color: white !important;
 }
 
@@ -135,6 +153,11 @@ h1 + section, h1 + :not(img) ~ section {
     padding: 0 25px 25px;
 }
 
+
+body.dark-mode h1 + section, body.dark-mode h1 + :not(img) ~ section {
+    background-color: #535553;
+}
+
 section > h2, section > h3 {
     margin-bottom: 0;
 }
@@ -163,22 +186,44 @@ section > h2 ~ section:last-child {
     margin-top: 25px;
 }
 
+body.dark-mode section > h2 ~ section:last-child {
+    border-top: 2px solid #929e92;
+}
+
 .gf::before {
     content: "gf ";
-    font-size: 75%;
+    font-size: 80%;
     color: red;
 }
 
 .vg::before {
     content: "vg ";
-    font-size: 75%;
+    font-size: 80%;
     color: red;
 }
 
 .gf.vg::before {
     content: "gf vg ";
-    font-size: 75%;
+    font-size: 80%;
     color: red;
+}
+
+body.dark-mode .gf::before {
+    content: "gf ";
+    font-size: 80%;
+    color: forestgreen;
+}
+
+body.dark-mode .vg::before {
+    content: "vg ";
+    font-size: 80%;
+    color: forestgreen;
+}
+
+body.dark-mode .gf.vg::before {
+    content: "gf vg ";
+    font-size: 80%;
+    color: forestgreen;
 }
 
 table {
@@ -189,6 +234,10 @@ table {
 
 tbody > tr:nth-child(odd) {
     background-color: #bfe7bf;
+}
+
+body.dark-mode tbody > tr:nth-child(odd) {
+    background-color: #656865;
 }
 
 thead > tr, tbody > tr > td:first-child {
