@@ -45,8 +45,9 @@ nav > ul {
 
 nav > ul > li {
     display: flex;
-    flex-grow: 1;
+    width: 25%;
     margin: 0 10px;
+    padding: 10px 75px;
 }
 
 nav > ul > li > a {
