@@ -12,6 +12,8 @@
     color: #2b332b;
 }
 
+/* SITE-WIDE =================================================== */
+
 body {
     margin: 0;
     font-family: 'Handlee', cursive;
@@ -84,6 +86,8 @@ main {
     align-items: center;
 }
 
+/* HOMEPAGE ==================================================== */
+
 main > h1:first-child {
     font-size: 72px;
 }
@@ -94,4 +98,40 @@ img[src="images/homepage banner.jpeg"] {
 
 p {
     text-indent: .5in;
+}
+
+/* DIRECTIONS ================================================== */
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin: 5px;
+}
+
+iframe {
+    border: none;
+    width: 450px;
+    height: 450px;
+}
+
+article span {
+    font-weight: bold;
+}
+
+article a {
+    font-style: normal;
+}
+
+article address::before {
+    content: "📞 ";
+}
+
+div.new {
+    font-size: 150%;
+    color: red;
 }
