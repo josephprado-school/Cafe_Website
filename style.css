@@ -60,8 +60,17 @@ nav > ul > li > a {
     border-radius: 20px;
     border: 1px solid white;
     color: white;
+    margin: 10px;
+}
+
+#theme-toggle:hover {
+    cursor: pointer;
+}
+
+header a:hover, header #theme-toggle:hover {
+    background-color: #55AA55;
 }
 
 main {
-    padding-top: 40px;
+    padding-top: 60px;
 }
