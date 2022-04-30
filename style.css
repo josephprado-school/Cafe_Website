@@ -71,6 +71,15 @@ nav > ul > li > a {
 
 header a:hover, header #theme-toggle:hover {
     background-color: #658f65;
+    color: white !important;
+}
+
+a:hover {
+    color: #009b00 !important;
+}
+
+a:visited {
+    color: #bfe7bf;
 }
 
 main {
