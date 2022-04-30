@@ -74,12 +74,16 @@ header a:hover, header #theme-toggle:hover {
     color: white !important;
 }
 
+header a:visited, header #theme-toggle:visited {
+    color: #bfe7bf;
+}
+
 a:hover {
     color: #009b00 !important;
 }
 
 a:visited {
-    color: #bfe7bf;
+    color: red;
 }
 
 main {
