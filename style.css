@@ -89,6 +89,10 @@ main {
     align-items: center;
 }
 
+section {
+    max-width: 1200px;
+}
+
 /* HOMEPAGE ==================================================== */
 
 main > h1:first-child {
@@ -97,10 +101,24 @@ main > h1:first-child {
 
 img[src="images/homepage banner.jpeg"] {
     height: 400px;
+    width: 1200px;
+    object-fit: cover;
 }
 
 h1 + img + section > p {
     text-indent: 2em;
+}
+
+h1 + img + section + section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img[src*="food"] {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 /* MENU ======================================================== */
