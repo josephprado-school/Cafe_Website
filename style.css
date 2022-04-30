@@ -79,4 +79,7 @@ header a:hover, header #theme-toggle:hover {
 
 main {
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
